@@ -1,0 +1,157 @@
+body {
+	background: #F2F2F2 url(../img/fundo.png) repeat-x;
+	font: 12px "Tahoma";
+
+}
+
+#container {
+	width: 1080px;
+	margin: 0 auto;
+}
+
+
+#logo h1 {
+	float: left;
+}
+#logo a {
+	width: 248px; /*altura e largura da img*/
+	height: 21px;
+	text-indent: -9999px;
+	display: block;
+	background: url(../img/logo.png) no-repeat;
+
+}
+
+/*BARRA DE NAVEGAÇÃO*/
+header {
+	padding: 15px 0;
+	height: 55px;
+
+}
+
+a:link, a:active, a:visited {
+	color: #af670a;
+	text-decoration: none;
+}
+a:hover {
+	color: #227115;
+}
+
+nav ul {
+	list-style: none;
+	margin: 20px;
+	float: right;
+
+}
+
+nav ul li {
+	float: left;
+}
+
+nav ul li a:link {
+	display: block;
+	margin-right: 25px;
+	padding-bottom: 3px;
+	text-transform: uppercase;
+}
+
+nav ul li a:hover {
+	border-bottom: 1px solid #535858;
+}
+
+
+/*PRINCIPAL*/
+#conteudo {
+	width: 710px;
+	float: left; /*esquerda*/
+	background: ;
+}
+
+
+/*aside - lateral direita*/
+aside {
+	width: 350px;
+	float: right; /*direita*/
+	background: #ebe7dd;
+	padding-bottom: 30px;
+	margin-bottom: 20px;
+}
+
+section#visita { /*o id precisa estar colado pq vamos pegar só ele, seria separado se fosse um id em geral*/
+	background: #cdc8b1;
+	padding: 10px 27px 27px 27px;
+	margin-top: 10px;
+}
+
+fieldset {
+	border: none;
+}
+
+input {
+	height: 20px;
+	width: 95px;
+}
+
+input.botao {
+	background: #9b9271;
+	color: white;
+	width: 100%;
+	height: 40px;
+	font-size: 1.2em;
+}
+
+
+#galeria {
+	padding: 0 27px 0 27px;
+}
+
+section#galeria a {
+	display: block;
+	background: url(../img/fundo-foto.png) no-repeat;
+	float: left;
+	padding: 20px 16px 20px 16px;
+	margin: 10px 0 0 20px;
+}
+
+article {
+	float: left;
+	width: 310px;
+	margin: 5px 0 0 37px;
+	text-align: left; 
+}
+
+article#exposicoes {
+	float: left;
+	width: 310px;
+	margin: 15px 0 0 37px;
+}
+
+article#historia {
+	float: left;
+	width: 310px;
+	margin: 15px 0 0 37px;
+}
+
+
+h3 {
+	color: #227115;
+	font-size: 1.0em;
+	margin-bottom: 15px;
+}
+
+h4 {
+	color: 	#8B4513;
+	margin-bottom: 0;
+}
+
+/*RODAPÉ*/
+footer {
+	clear: both;/*para centralizar e limpar toda a pag*/
+	padding: 20px 0 30px 0;
+	text-align: center;
+	background: url(../img/fundo-rodape.png) no-repeat center top;
+}
+
+footer>p a {
+	padding: 2px 10px;
+}
